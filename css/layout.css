@@ -1,0 +1,93 @@
+/* All sizes */
+body {
+  color: #555;
+}
+body.index {
+  padding: 10px;
+}
+
+/* Header */
+div.header {
+  padding: 10px;
+}
+div.header img {
+  margin: 10px 0;
+}
+div.header p:first-line {
+  font-weight: bold;
+}
+div.header nav ul,
+div.header nav button.navbar-toggle {
+  color: #428bca;
+  border: 1px solid #428bca;
+  border-radius: 6px;
+}
+div.header nav ul {
+  padding: 2px;
+}
+
+/* Spotlight */
+div.spotlight {
+  background-color: #004D84;
+  padding: 15px 5px;
+}
+div.spotlight > div {
+  padding: 0 10px;
+}
+div.spotlight img {
+  border: 4px solid #F6A749;
+}
+
+/* Page content */
+div.content {
+  margin: 15px 0;
+}
+div.speakers div.media {
+  margin: 10px 0;
+}
+div.speakers img {
+  border: 4px solid #F6A749;
+}
+
+/* Glyphicons styles */
+div.glyphicons > div {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 20pt;
+  width: 50px;
+  height: 50px;
+  float: left;
+  color: #004D84;
+}
+div.glyphicons > div.style-invert {
+  background-color: #004D84;
+  color: #fff;
+}
+div.glyphicons > div.style-small {
+  font-size: 12pt;
+}
+div.glyphicons > div.style-shadow {
+  color: #F6A749;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+/* Extra small screens */
+@media (max-width: 767px) {
+  div.example {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 10px 0;
+  }
+}
+
+/* Everything else */
+@media (min-width: 768px) {
+  div.example {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0 0 20px 0;
+  }
+}
